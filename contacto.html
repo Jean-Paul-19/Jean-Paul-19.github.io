@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/contacto.css">
+    <script type="text/javascript" src="/js/nav.js"></script>
+    <title>Formulario</title>
+</head>
+<body>
+
+    <header class="header">
+        <p class="logo-frase">JeanDev <\></p>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="/index.html">Inicio</a></li>
+            </ul>
+        </nav>
+        <a class="btn" href="../pagina/contacto.html">
+            <button>Contacto</button>
+        </a>
+        <a onclick="openNav()" class="menu" href="#">
+            <button>Menú</button>
+        </a>
+
+        <div class="overlay" id="mobile-menu">
+            <a onclick="closeNav()" href="" class="close">&times;</a>
+            <div class="overlay-content">
+                <li><a href="/index.html">Inicio</a></li>
+                <a href="../pagina/contacto.html">Contacto</a>
+            </div>
+        </div>
+    </header>
+
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form id="formulario-contacto">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+
+
+
+
+    <footer>
+        <div class = "social-media">
+
+            <p>&copy; 2024 Jean Paul García Molina Todos los derechos reservados </p>
+
+            <a href="https://github.com/Jean-Paul-19"  target="_blank">
+                <img src="/img/github.png" alt="github">
+            </a>
+            <a href="https://www.linkedin.com/in/jean-paul-garcia-molina-a98979305/"  target="_blank">
+                <img src="/img/LinkedIn.png" alt="LinkedIn">
+            </a>
+        </div>
+    </footer>
+    
+</body>
+</html>

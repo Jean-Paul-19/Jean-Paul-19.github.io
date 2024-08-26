@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styleindex.css">
+    <title>Portafolio</title>
+    <script type="text/javascript" src="/js/nav.js"></script>
+</head>
+<body>
+    <header class="header">
+        <p class="logo-frase">JeanDev <\></p>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/skilss.html">Sobre Mí</a></li>
+                <li><a href="/Proyectos.html">Proyectos</a></li>
+            </ul>
+        </nav>
+        
+        <a class="btn-contact" href="/contacto.html">
+            <button>Contacto</button>
+        </a>
+        <a onclick="openNav()" class="menu" href="#">
+            <button>Menú</button>
+        </a>
+
+        <div class="overlay" id="mobile-menu">
+            <a onclick="closeNav()" href="" class="close">&times;</a>
+            <div class="overlay-content">
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/skilss.html">Sobre Mí</a></li>
+                <li><a href="/Proyectos.html">Proyectos</a></li>
+                <a href="/contacto.html">Contacto</a>
+            </div>
+        </div>
+    </header>
+    
+    <section id="Sobre Mí">
+        <div class="container">
+            <div class="foto-jean">
+                <img src="/img/jean-sin-fondo.png" alt="Jean foto">
+            </div>
+        
+            <div class="info">
+                <h1>Soy Jean Paul García</h1>
+                <h2 class="h2-text">Sofware Developer</h2>
+                <p>Soy una persona muy disciplinada, que sabe trabajar en equipo, poseo una gran creatividad
+                    flexibilidad, amabilidad y orden en todo lo que hago. Desde muy joven he estado interesado en el mundo de la tecnología.</p>
+                <div class="buttons">
+                    <a href="/CV/Jean Paul Garcia Molina - CV.pdf" class="btn-custom download" download>DOWNLOAD CV <span>↓</span></a>
+                    <a href="/skilss.html" class="btn-custom more">MORE ABOUT ME <span>→</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-media">
+            <p>&copy; 2024 Jean Paul García Molina Todos los derechos reservados </p>
+            <a href="https://github.com/Jean-Paul-19"  target="_blank">
+                <img src="/img/github.png" alt="github">
+            </a>
+            <a href="https://www.linkedin.com/in/jean-paul-garcia-molina-a98979305/"  target="_blank">
+                <img src="/img/LinkedIn.png" alt="LinkedIn">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
